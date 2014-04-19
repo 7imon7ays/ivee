@@ -1,1010 +1,527 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0C7C6F0B79AE4FD9A46347B0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>2254D196DB6448F1BB755E45</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4B3BA13E00C646D5A768E1F6</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>67D9AA7FAB6F4EAD847284A1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D074486CAE8541B99084A9CB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BF767BBA19032C8600EDD267</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BF767BCC19032C8600EDD267</string>
-				<string>BF767BE519032C8600EDD267</string>
-				<string>BF767BC519032C8600EDD267</string>
-				<string>BF767BC419032C8600EDD267</string>
-				<string>2254D196DB6448F1BB755E45</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF767BBB19032C8600EDD267</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Ram Ramakrishnan</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>BF767BDD19032C8600EDD267</key>
-					<dict>
-						<key>TestTargetID</key>
-						<string>BF767BC219032C8600EDD267</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>BF767BBE19032C8600EDD267</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>BF767BBA19032C8600EDD267</string>
-			<key>productRefGroup</key>
-			<string>BF767BC419032C8600EDD267</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>BF767BC219032C8600EDD267</string>
-				<string>BF767BDD19032C8600EDD267</string>
-			</array>
-		</dict>
-		<key>BF767BBE19032C8600EDD267</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>BF767BED19032C8600EDD267</string>
-				<string>BF767BEE19032C8600EDD267</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>BF767BBF19032C8600EDD267</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BF767BD719032C8600EDD267</string>
-				<string>BF767BD319032C8600EDD267</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BF767BC019032C8600EDD267</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BF767BC919032C8600EDD267</string>
-				<string>BF767BCB19032C8600EDD267</string>
-				<string>BF767BC719032C8600EDD267</string>
-				<string>67D9AA7FAB6F4EAD847284A1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BF767BC119032C8600EDD267</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BF767BD119032C8600EDD267</string>
-				<string>BF767BD919032C8600EDD267</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BF767BC219032C8600EDD267</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>BF767BEF19032C8600EDD267</string>
-			<key>buildPhases</key>
-			<array>
-				<string>4B3BA13E00C646D5A768E1F6</string>
-				<string>BF767BBF19032C8600EDD267</string>
-				<string>BF767BC019032C8600EDD267</string>
-				<string>BF767BC119032C8600EDD267</string>
-				<string>0C7C6F0B79AE4FD9A46347B0</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Ivee</string>
-			<key>productName</key>
-			<string>Ivee</string>
-			<key>productReference</key>
-			<string>BF767BC319032C8600EDD267</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>BF767BC319032C8600EDD267</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Ivee.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>BF767BC419032C8600EDD267</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BF767BC319032C8600EDD267</string>
-				<string>BF767BDE19032C8600EDD267</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF767BC519032C8600EDD267</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BF767BC619032C8600EDD267</string>
-				<string>BF767BC819032C8600EDD267</string>
-				<string>BF767BCA19032C8600EDD267</string>
-				<string>BF767BDF19032C8600EDD267</string>
-				<string>D074486CAE8541B99084A9CB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF767BC619032C8600EDD267</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>BF767BC719032C8600EDD267</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BF767BC619032C8600EDD267</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BF767BC819032C8600EDD267</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>BF767BC919032C8600EDD267</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BF767BC819032C8600EDD267</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BF767BCA19032C8600EDD267</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>BF767BCB19032C8600EDD267</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BF767BCA19032C8600EDD267</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BF767BCC19032C8600EDD267</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BF767BD519032C8600EDD267</string>
-				<string>BF767BD619032C8600EDD267</string>
-				<string>BF767BD819032C8600EDD267</string>
-				<string>BF767BCD19032C8600EDD267</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Ivee</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF767BCD19032C8600EDD267</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BF767BCE19032C8600EDD267</string>
-				<string>BF767BCF19032C8600EDD267</string>
-				<string>BF767BD219032C8600EDD267</string>
-				<string>BF767BD419032C8600EDD267</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF767BCE19032C8600EDD267</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Ivee-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF767BCF19032C8600EDD267</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BF767BD019032C8600EDD267</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF767BD019032C8600EDD267</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF767BD119032C8600EDD267</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BF767BCF19032C8600EDD267</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BF767BD219032C8600EDD267</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF767BD319032C8600EDD267</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BF767BD219032C8600EDD267</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BF767BD419032C8600EDD267</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Ivee-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF767BD519032C8600EDD267</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF767BD619032C8600EDD267</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF767BD719032C8600EDD267</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BF767BD619032C8600EDD267</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BF767BD819032C8600EDD267</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF767BD919032C8600EDD267</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BF767BD819032C8600EDD267</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BF767BDA19032C8600EDD267</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BF767BEC19032C8600EDD267</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BF767BDB19032C8600EDD267</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BF767BE019032C8600EDD267</string>
-				<string>BF767BE219032C8600EDD267</string>
-				<string>BF767BE119032C8600EDD267</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BF767BDC19032C8600EDD267</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BF767BEA19032C8600EDD267</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BF767BDD19032C8600EDD267</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>BF767BF219032C8600EDD267</string>
-			<key>buildPhases</key>
-			<array>
-				<string>BF767BDA19032C8600EDD267</string>
-				<string>BF767BDB19032C8600EDD267</string>
-				<string>BF767BDC19032C8600EDD267</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>BF767BE419032C8600EDD267</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>IveeTests</string>
-			<key>productName</key>
-			<string>IveeTests</string>
-			<key>productReference</key>
-			<string>BF767BDE19032C8600EDD267</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>BF767BDE19032C8600EDD267</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>IveeTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>BF767BDF19032C8600EDD267</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>BF767BE019032C8600EDD267</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BF767BDF19032C8600EDD267</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BF767BE119032C8600EDD267</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BF767BC619032C8600EDD267</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BF767BE219032C8600EDD267</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BF767BCA19032C8600EDD267</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BF767BE319032C8600EDD267</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>BF767BBB19032C8600EDD267</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>BF767BC219032C8600EDD267</string>
-			<key>remoteInfo</key>
-			<string>Ivee</string>
-		</dict>
-		<key>BF767BE419032C8600EDD267</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>BF767BC219032C8600EDD267</string>
-			<key>targetProxy</key>
-			<string>BF767BE319032C8600EDD267</string>
-		</dict>
-		<key>BF767BE519032C8600EDD267</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BF767BEB19032C8600EDD267</string>
-				<string>BF767BE619032C8600EDD267</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>IveeTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF767BE619032C8600EDD267</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BF767BE719032C8600EDD267</string>
-				<string>BF767BE819032C8600EDD267</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF767BE719032C8600EDD267</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>IveeTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF767BE819032C8600EDD267</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BF767BE919032C8600EDD267</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF767BE919032C8600EDD267</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF767BEA19032C8600EDD267</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BF767BE819032C8600EDD267</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BF767BEB19032C8600EDD267</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>IveeTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF767BEC19032C8600EDD267</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BF767BEB19032C8600EDD267</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BF767BED19032C8600EDD267</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>BF767BEE19032C8600EDD267</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>BF767BEF19032C8600EDD267</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>BF767BF019032C8600EDD267</string>
-				<string>BF767BF119032C8600EDD267</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>BF767BF019032C8600EDD267</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2254D196DB6448F1BB755E45</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Ivee/Ivee-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Ivee/Ivee-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>BF767BF119032C8600EDD267</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2254D196DB6448F1BB755E45</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Ivee/Ivee-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Ivee/Ivee-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>BF767BF219032C8600EDD267</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>BF767BF319032C8600EDD267</string>
-				<string>BF767BF419032C8600EDD267</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>BF767BF319032C8600EDD267</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Ivee.app/Ivee</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Ivee/Ivee-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>IveeTests/IveeTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>BF767BF419032C8600EDD267</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Ivee.app/Ivee</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Ivee/Ivee-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>IveeTests/IveeTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D074486CAE8541B99084A9CB</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>BF767BBB19032C8600EDD267</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67D9AA7FAB6F4EAD847284A1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D074486CAE8541B99084A9CB /* libPods.a */; };
+		BF767BC719032C8600EDD267 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF767BC619032C8600EDD267 /* Foundation.framework */; };
+		BF767BC919032C8600EDD267 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF767BC819032C8600EDD267 /* CoreGraphics.framework */; };
+		BF767BCB19032C8600EDD267 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF767BCA19032C8600EDD267 /* UIKit.framework */; };
+		BF767BD119032C8600EDD267 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF767BCF19032C8600EDD267 /* InfoPlist.strings */; };
+		BF767BD319032C8600EDD267 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF767BD219032C8600EDD267 /* main.m */; };
+		BF767BD719032C8600EDD267 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF767BD619032C8600EDD267 /* AppDelegate.m */; };
+		BF767BD919032C8600EDD267 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF767BD819032C8600EDD267 /* Images.xcassets */; };
+		BF767BE019032C8600EDD267 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF767BDF19032C8600EDD267 /* XCTest.framework */; };
+		BF767BE119032C8600EDD267 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF767BC619032C8600EDD267 /* Foundation.framework */; };
+		BF767BE219032C8600EDD267 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF767BCA19032C8600EDD267 /* UIKit.framework */; };
+		BF767BEA19032C8600EDD267 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF767BE819032C8600EDD267 /* InfoPlist.strings */; };
+		BF767BEC19032C8600EDD267 /* IveeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF767BEB19032C8600EDD267 /* IveeTests.m */; };
+		BF767BFD1903381400EDD267 /* BoardsIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF767BFB1903381400EDD267 /* BoardsIndexViewController.m */; };
+		BF767BFE1903381400EDD267 /* BoardsIndexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF767BFC1903381400EDD267 /* BoardsIndexViewController.xib */; };
+		BF767C021903382B00EDD267 /* NewBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF767C001903382B00EDD267 /* NewBoardViewController.m */; };
+		BF767C031903382B00EDD267 /* NewBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF767C011903382B00EDD267 /* NewBoardViewController.xib */; };
+		BF767C071903384E00EDD267 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF767C051903384E00EDD267 /* ListViewController.m */; };
+		BF767C081903384E00EDD267 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF767C061903384E00EDD267 /* ListViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF767BE319032C8600EDD267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF767BBB19032C8600EDD267 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF767BC219032C8600EDD267;
+			remoteInfo = Ivee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2254D196DB6448F1BB755E45 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		BF767BC319032C8600EDD267 /* Ivee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ivee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF767BC619032C8600EDD267 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF767BC819032C8600EDD267 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF767BCA19032C8600EDD267 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF767BCE19032C8600EDD267 /* Ivee-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ivee-Info.plist"; sourceTree = "<group>"; };
+		BF767BD019032C8600EDD267 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF767BD219032C8600EDD267 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF767BD419032C8600EDD267 /* Ivee-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ivee-Prefix.pch"; sourceTree = "<group>"; };
+		BF767BD519032C8600EDD267 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF767BD619032C8600EDD267 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF767BD819032C8600EDD267 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF767BDE19032C8600EDD267 /* IveeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IveeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF767BDF19032C8600EDD267 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BF767BE719032C8600EDD267 /* IveeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IveeTests-Info.plist"; sourceTree = "<group>"; };
+		BF767BE919032C8600EDD267 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF767BEB19032C8600EDD267 /* IveeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IveeTests.m; sourceTree = "<group>"; };
+		BF767BFA1903381400EDD267 /* BoardsIndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardsIndexViewController.h; sourceTree = "<group>"; };
+		BF767BFB1903381400EDD267 /* BoardsIndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardsIndexViewController.m; sourceTree = "<group>"; };
+		BF767BFC1903381400EDD267 /* BoardsIndexViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BoardsIndexViewController.xib; sourceTree = "<group>"; };
+		BF767BFF1903382B00EDD267 /* NewBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewBoardViewController.h; sourceTree = "<group>"; };
+		BF767C001903382B00EDD267 /* NewBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewBoardViewController.m; sourceTree = "<group>"; };
+		BF767C011903382B00EDD267 /* NewBoardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewBoardViewController.xib; sourceTree = "<group>"; };
+		BF767C041903384E00EDD267 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		BF767C051903384E00EDD267 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		BF767C061903384E00EDD267 /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		D074486CAE8541B99084A9CB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF767BC019032C8600EDD267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF767BC919032C8600EDD267 /* CoreGraphics.framework in Frameworks */,
+				BF767BCB19032C8600EDD267 /* UIKit.framework in Frameworks */,
+				BF767BC719032C8600EDD267 /* Foundation.framework in Frameworks */,
+				67D9AA7FAB6F4EAD847284A1 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF767BDB19032C8600EDD267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF767BE019032C8600EDD267 /* XCTest.framework in Frameworks */,
+				BF767BE219032C8600EDD267 /* UIKit.framework in Frameworks */,
+				BF767BE119032C8600EDD267 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF767BBA19032C8600EDD267 = {
+			isa = PBXGroup;
+			children = (
+				BF767BCC19032C8600EDD267 /* Ivee */,
+				BF767BE519032C8600EDD267 /* IveeTests */,
+				BF767BC519032C8600EDD267 /* Frameworks */,
+				BF767BC419032C8600EDD267 /* Products */,
+				2254D196DB6448F1BB755E45 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		BF767BC419032C8600EDD267 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF767BC319032C8600EDD267 /* Ivee.app */,
+				BF767BDE19032C8600EDD267 /* IveeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF767BC519032C8600EDD267 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF767BC619032C8600EDD267 /* Foundation.framework */,
+				BF767BC819032C8600EDD267 /* CoreGraphics.framework */,
+				BF767BCA19032C8600EDD267 /* UIKit.framework */,
+				BF767BDF19032C8600EDD267 /* XCTest.framework */,
+				D074486CAE8541B99084A9CB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF767BCC19032C8600EDD267 /* Ivee */ = {
+			isa = PBXGroup;
+			children = (
+				BF767BD519032C8600EDD267 /* AppDelegate.h */,
+				BF767BD619032C8600EDD267 /* AppDelegate.m */,
+				BF767BD819032C8600EDD267 /* Images.xcassets */,
+				BF767BCD19032C8600EDD267 /* Supporting Files */,
+				BF767BFA1903381400EDD267 /* BoardsIndexViewController.h */,
+				BF767BFB1903381400EDD267 /* BoardsIndexViewController.m */,
+				BF767BFC1903381400EDD267 /* BoardsIndexViewController.xib */,
+				BF767BFF1903382B00EDD267 /* NewBoardViewController.h */,
+				BF767C001903382B00EDD267 /* NewBoardViewController.m */,
+				BF767C011903382B00EDD267 /* NewBoardViewController.xib */,
+				BF767C041903384E00EDD267 /* ListViewController.h */,
+				BF767C051903384E00EDD267 /* ListViewController.m */,
+				BF767C061903384E00EDD267 /* ListViewController.xib */,
+			);
+			path = Ivee;
+			sourceTree = "<group>";
+		};
+		BF767BCD19032C8600EDD267 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF767BCE19032C8600EDD267 /* Ivee-Info.plist */,
+				BF767BCF19032C8600EDD267 /* InfoPlist.strings */,
+				BF767BD219032C8600EDD267 /* main.m */,
+				BF767BD419032C8600EDD267 /* Ivee-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF767BE519032C8600EDD267 /* IveeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF767BEB19032C8600EDD267 /* IveeTests.m */,
+				BF767BE619032C8600EDD267 /* Supporting Files */,
+			);
+			path = IveeTests;
+			sourceTree = "<group>";
+		};
+		BF767BE619032C8600EDD267 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF767BE719032C8600EDD267 /* IveeTests-Info.plist */,
+				BF767BE819032C8600EDD267 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF767BC219032C8600EDD267 /* Ivee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF767BEF19032C8600EDD267 /* Build configuration list for PBXNativeTarget "Ivee" */;
+			buildPhases = (
+				4B3BA13E00C646D5A768E1F6 /* Check Pods Manifest.lock */,
+				BF767BBF19032C8600EDD267 /* Sources */,
+				BF767BC019032C8600EDD267 /* Frameworks */,
+				BF767BC119032C8600EDD267 /* Resources */,
+				0C7C6F0B79AE4FD9A46347B0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ivee;
+			productName = Ivee;
+			productReference = BF767BC319032C8600EDD267 /* Ivee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF767BDD19032C8600EDD267 /* IveeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF767BF219032C8600EDD267 /* Build configuration list for PBXNativeTarget "IveeTests" */;
+			buildPhases = (
+				BF767BDA19032C8600EDD267 /* Sources */,
+				BF767BDB19032C8600EDD267 /* Frameworks */,
+				BF767BDC19032C8600EDD267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF767BE419032C8600EDD267 /* PBXTargetDependency */,
+			);
+			name = IveeTests;
+			productName = IveeTests;
+			productReference = BF767BDE19032C8600EDD267 /* IveeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF767BBB19032C8600EDD267 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ram Ramakrishnan";
+				TargetAttributes = {
+					BF767BDD19032C8600EDD267 = {
+						TestTargetID = BF767BC219032C8600EDD267;
+					};
+				};
+			};
+			buildConfigurationList = BF767BBE19032C8600EDD267 /* Build configuration list for PBXProject "Ivee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF767BBA19032C8600EDD267;
+			productRefGroup = BF767BC419032C8600EDD267 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF767BC219032C8600EDD267 /* Ivee */,
+				BF767BDD19032C8600EDD267 /* IveeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF767BC119032C8600EDD267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF767C031903382B00EDD267 /* NewBoardViewController.xib in Resources */,
+				BF767BFE1903381400EDD267 /* BoardsIndexViewController.xib in Resources */,
+				BF767C081903384E00EDD267 /* ListViewController.xib in Resources */,
+				BF767BD119032C8600EDD267 /* InfoPlist.strings in Resources */,
+				BF767BD919032C8600EDD267 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF767BDC19032C8600EDD267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF767BEA19032C8600EDD267 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C7C6F0B79AE4FD9A46347B0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B3BA13E00C646D5A768E1F6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF767BBF19032C8600EDD267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF767C071903384E00EDD267 /* ListViewController.m in Sources */,
+				BF767C021903382B00EDD267 /* NewBoardViewController.m in Sources */,
+				BF767BD719032C8600EDD267 /* AppDelegate.m in Sources */,
+				BF767BFD1903381400EDD267 /* BoardsIndexViewController.m in Sources */,
+				BF767BD319032C8600EDD267 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF767BDA19032C8600EDD267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF767BEC19032C8600EDD267 /* IveeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF767BE419032C8600EDD267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF767BC219032C8600EDD267 /* Ivee */;
+			targetProxy = BF767BE319032C8600EDD267 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF767BCF19032C8600EDD267 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF767BD019032C8600EDD267 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF767BE819032C8600EDD267 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF767BE919032C8600EDD267 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF767BED19032C8600EDD267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF767BEE19032C8600EDD267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF767BF019032C8600EDD267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2254D196DB6448F1BB755E45 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ivee/Ivee-Prefix.pch";
+				INFOPLIST_FILE = "Ivee/Ivee-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF767BF119032C8600EDD267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2254D196DB6448F1BB755E45 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ivee/Ivee-Prefix.pch";
+				INFOPLIST_FILE = "Ivee/Ivee-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BF767BF319032C8600EDD267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ivee.app/Ivee";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ivee/Ivee-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IveeTests/IveeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BF767BF419032C8600EDD267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ivee.app/Ivee";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ivee/Ivee-Prefix.pch";
+				INFOPLIST_FILE = "IveeTests/IveeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF767BBE19032C8600EDD267 /* Build configuration list for PBXProject "Ivee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF767BED19032C8600EDD267 /* Debug */,
+				BF767BEE19032C8600EDD267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF767BEF19032C8600EDD267 /* Build configuration list for PBXNativeTarget "Ivee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF767BF019032C8600EDD267 /* Debug */,
+				BF767BF119032C8600EDD267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF767BF219032C8600EDD267 /* Build configuration list for PBXNativeTarget "IveeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF767BF319032C8600EDD267 /* Debug */,
+				BF767BF419032C8600EDD267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF767BBB19032C8600EDD267 /* Project object */;
+}
