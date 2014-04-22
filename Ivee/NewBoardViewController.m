@@ -9,6 +9,7 @@
 #import "NewBoardViewController.h"
 
 @interface NewBoardViewController ()
+- (IBAction)onTap:(id)sender;
 
 @end
 
@@ -35,4 +36,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)onTap:(id)sender {
+    [self.view endEditing:(YES)];
+}
 @end

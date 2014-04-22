@@ -7,7 +7,11 @@
 //
 
 #import "AppDelegate.h"
-#import "ListViewController.h"
+//#import "BoardsIndexViewController.h"
+#import "NewBoardViewController.h"
+//#import "ListViewController.h"
+
+
 
 @implementation AppDelegate
 
@@ -15,9 +19,15 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    ListViewController *listVC = [[ListViewController alloc] init];
-    self.window.rootViewController = listVC;
     
+    //BoardsIndexViewController *boardsIndexVC = [[BoardsIndexViewController alloc] init];
+    NewBoardViewController *newBoardVC = [[NewBoardViewController alloc] init];
+    //ListViewController *listVC = [[ListViewController alloc] init];
+
+    //self.window.rootViewController = boardsIndexVC;
+    self.window.rootViewController = newBoardVC;
+    //self.window.rootViewController = listVC;
+
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
