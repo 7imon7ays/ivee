@@ -18,19 +18,18 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
-    
-    //BoardsIndexViewController *boardsIndexVC = [[BoardsIndexViewController alloc] init];
-    NewBoardViewController *newBoardVC = [[NewBoardViewController alloc] init];
-    //ListViewController *listVC = [[ListViewController alloc] init];
-
-    //self.window.rootViewController = boardsIndexVC;
-    self.window.rootViewController = newBoardVC;
-    //self.window.rootViewController = listVC;
 
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+
+    //BoardsIndexViewController *boardsIndexVC = [[BoardsIndexViewController alloc] init];
+    NewBoardViewController *newBoardVC = [[NewBoardViewController alloc] init];
+    //ListViewController *listVC = [[ListViewController alloc] init];
+
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController: newBoardVC];
+    self.window.rootViewController = navController;
+
     return YES;
 }
 
