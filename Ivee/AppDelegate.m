@@ -10,6 +10,7 @@
 //#import "BoardsIndexViewController.h"
 #import "NewBoardViewController.h"
 //#import "ListViewController.h"
+#import "BoardsIndexViewController.h"
 
 
 
@@ -23,12 +24,13 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
 
-    //BoardsIndexViewController *boardsIndexVC = [[BoardsIndexViewController alloc] init];
-    NewBoardViewController *newBoardVC = [[NewBoardViewController alloc] init];
+    BoardsIndexViewController *boardsIndexVC = [[BoardsIndexViewController alloc] init];
+    //NewBoardViewController *newBoardVC = [[NewBoardViewController alloc] init];
     //ListViewController *listVC = [[ListViewController alloc] init];
 
-    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController: newBoardVC];
-    self.window.rootViewController = navController;
+    //UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController: newBoardVC];
+    //self.window.rootViewController = navController;
+    self.window.rootViewController = boardsIndexVC; 
 
     return YES;
 }

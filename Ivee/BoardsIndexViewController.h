@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface BoardsIndexViewController : UIViewController
-
+<UITableViewDataSource, UITableViewDelegate>
 @end
